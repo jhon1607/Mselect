@@ -43,6 +43,10 @@ ___
 </html>
 ```
 
+Todos los elementos heredan el name del mselect. 
+Podemos agregar el atributo type="radio" Y solo permitira seleccionar 1 a la vez de lo contrario se podran seleccionar varios
+
+
 El primer moption debe de llevar el atributo label en true (label="true") pues este sera el nombre de nuestro input.
 No es seleccionable y sera donde veremos:
 la cantidad seleccionada en caso de haber seleccionado mas de uno
@@ -154,3 +158,5 @@ el color será el que tendra al no haber nada seleccionado. Para cambiar el colo
 }
 ```
 Esto cambiaria el color del texto del option de tipo label al tener una o mas opciones seleccionadas.
+
+> Gracias por ver
