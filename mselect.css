@@ -38,6 +38,7 @@ mselect moption.mlabel {
   top: 0;
   background: #fff;
   color: #0005;
+  z-index: 4;
 }
 mselect moption.mlabel:hover {
   background: #fff;
