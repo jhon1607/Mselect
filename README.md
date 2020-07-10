@@ -32,13 +32,13 @@ ___
   <body>
   <!---- Construccion del mselec--->
 
- <mselect name="">
-   <moption label="true">Animales...</moption>
-   <moption value="Opcion1">Gato</moption>
-   <moption value="Opcion2">Perro</moption>
-   <moption value="Opcion3">Vaca</moption>
-   <moption value="Opcion4">Burro</moption>
- </mselect>
+   <mselect name="">
+     <moption label="true">Animales...</moption>
+     <moption value="Opcion1">Gato</moption>
+     <moption value="Opcion2">Perro</moption>
+     <moption value="Opcion3">Vaca</moption>
+     <moption value="Opcion4">Burro</moption>
+   </mselect>
   </body>
 </html>
 ```
@@ -123,7 +123,7 @@ Por ejemplo: Para cambiar el background a purpura y el color a azul de las opcio
 > de la misma forma podemos agregar los efectos con la pseodo clase :hover
 > simplemente agregandola como siempre
 ```css
-    mselect moption{
+    mselect moption:hover{
         color: purple;
         background: blue
     }
